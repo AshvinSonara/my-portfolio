@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashvin Sonara — Freelance Frontend Developer</title>
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <meta name="description"
+    content="Ashvin Sonara is a Freelance Frontend Developer building modern, responsive websites for businesses and startups.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Ashvin Sonara</a>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <label class="theme-toggle" aria-label="Toggle dark mode">
+          <input type="checkbox" id="themeToggle">
+          <div class="toggle-track">
+            <div class="toggle-thumb" id="toggleThumb">☀️</div>
+          </div>
+        </label>
+        <a href="#contact" class="btn-hire-nav">Hire Me</a>
+        <div class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <div class="hero-bg-blob blob-1"></div>
+    <div class="hero-bg-blob blob-2"></div>
+    <div class="container hero-grid">
+      <div>
+        <div class="hero-badge reveal">
+          <span class="dot"></span>
+          Freelance Frontend Developer
+        </div>
+        <h1 class="hero-title reveal delay-1">I Build <span class="accent">Modern &amp; Responsive</span> Websites</h1>
+        <p class="hero-sub reveal delay-2">I help businesses, startups, and individuals turn ideas into high-performing,
+          visually engaging, and user-friendly websites.</p>
+        <div class="hero-btns reveal delay-3">
+          <a href="#projects" class="btn-primary">View My Work →</a>
+          <a href="#contact" class="btn-secondary">Hire Me</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-2">
+        <div class="hero-avatar-wrap">
+          <div class="avatar-glow"></div>
+          <div class="avatar-ring">
+            <div class="avatar-inner">👨‍💻</div>
+          </div>
+          <div class="hero-stat-cards right">
+            <div class="stat-card">
+              <span class="stat-icon">🚀</span>
+              <div><strong>10+</strong><span>Projects Done</span></div>
+            </div>
+            <div class="stat-card">
+              <span class="stat-icon">⭐</span>
+              <div><strong>Happy Clients</strong><span>100% Satisfaction</span></div>
+            </div>
+          </div>
+          <div class="hero-stat-cards left">
+            <div class="stat-card">
+              <span class="stat-icon">💻</span>
+              <div><strong>Clean Code</strong><span>Mobile-First</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-img-wrap reveal">
+        <div class="about-img-frame"><img src="images/image.png" alt="about image"></div>
+        <div class="about-badge-float">
+          <span class="num">2nd</span>
+          <span class="label">Year Student</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-tag">About Me</span>
+        <h2 class="reveal">Turning Vision Into <br>Digital Reality</h2>
+        <p class="reveal delay-1">I am a dedicated Freelance Frontend Developer specializing in building responsive,
+          modern, and high-performing websites using HTML, CSS, and JavaScript. I focus on clean code, mobile-first
+          design, performance optimization, and client satisfaction.</p>
+        <p class="reveal delay-2">Currently pursuing a Diploma in Information Technology (2nd Year). Passionate about
+          continuous learning and delivering reliable digital solutions that make an impact.</p>
+        <div class="about-chips reveal delay-3">
+          <span class="chip">🎯 Client-Focused</span>
+          <span class="chip">📱 Mobile-First</span>
+          <span class="chip">⚡ Performance</span>
+          <span class="chip">🎨 Clean UI</span>
+          <span class="chip">📐 Pixel Perfect</span>
+          <span class="chip">🔄 Continuous Learning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES ─── -->
+  <section id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">What I Offer</span>
+        <h2>Services Built for Your Growth</h2>
+        <p>From concept to launch — I help you ship faster and look better.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal delay-1">
+          <div class="service-icon">🌐</div>
+          <h3>Responsive Website Development</h3>
+          <p>Fully responsive, fast-loading websites that work flawlessly on every device — desktop, tablet, and mobile.
+            Built with semantic HTML, modern CSS, and clean JavaScript.</p>
+        </div>
+        <div class="service-card reveal delay-2">
+          <div class="service-icon">🎯</div>
+          <h3>Landing Page Design</h3>
+          <p>High-converting landing pages designed to capture attention and drive action. Optimized for performance,
+            SEO, and compelling user experience.</p>
+        </div>
+        <div class="service-card reveal delay-3">
+          <div class="service-icon">✨</div>
+          <h3>Website UI Improvement &amp; Redesign</h3>
+          <p>Transform your outdated website into a modern, polished digital experience. Fresh layouts, improved
+            usability, and a visual style that builds trust.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Featured Projects</span>
+        <h2>Work That Speaks</h2>
+        <p>A selection of real-world projects built with precision and purpose.</p>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card reveal delay-1">
+          <div class="project-thumb">
+            <img src="images/project1.png" alt="project1">
+            <div class="project-thumb-overlay">
+              <a href="#contact">View Project</a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Responsive Shopping Website</h3>
+            <p>Fully responsive e-commerce website with interactive UI, smooth navigation, and dynamic product layouts.
+            </p>
+            <div class="tech-badges">
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal delay-2">
+          <div class="project-thumb" style="font-size:2.8rem"><img src="images/project2.png" alt="project2"></div>
+          <div class="project-thumb-overlay">
+            <a href="#contact">View Project</a>
+          </div>
+          <div class="project-body">
+            <h3>Harvesting Booking System</h3>
+            <p>Clean and intuitive booking interface for harvesting services with form-driven scheduling and clear
+              layouts.</p>
+            <div class="tech-badges">
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal delay-3">
+          <div class="project-thumb"><img src="images/project3.png" alt="project3"></div>
+          <div class="project-thumb-overlay">
+            <a href="#contact">View Project</a>
+          </div>
+          <div class="project-body">
+            <h3>University Management Website</h3>
+            <p>Multi-page university website with structured content layout, course listings, and faculty information.
+            </p>
+            <div class="tech-badges">
+              <span class="badge">HTML</span>
+              <span class="badge">CSS</span>
+              <span class="badge">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Skills</span>
+        <h2>My Tech Stack</h2>
+        <p>Tools and technologies I use to build modern web experiences.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal delay-1" data-skill="90">
+          <span class="skill-icon">🌐</span>
+          <div class="skill-name">HTML5</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="90"></div>
+          </div>
+          <div class="skill-pct">90%</div>
+        </div>
+        <div class="skill-card reveal delay-2" data-skill="85">
+          <span class="skill-icon">🎨</span>
+          <div class="skill-name">CSS3</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="85"></div>
+          </div>
+          <div class="skill-pct">85%</div>
+        </div>
+        <div class="skill-card reveal delay-3" data-skill="75">
+          <span class="skill-icon">⚡</span>
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="75"></div>
+          </div>
+          <div class="skill-pct">75%</div>
+        </div>
+        <div class="skill-card reveal delay-4" data-skill="80">
+          <span class="skill-icon">🖌️</span>
+          <div class="skill-name">Figma</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="80"></div>
+          </div>
+          <div class="skill-pct">80%</div>
+        </div>
+        <div class="skill-card reveal delay-4" data-skill="65">
+          <span class="skill-icon">🐍</span>
+          <div class="skill-name">Python</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-bar" data-width="65"></div>
+          </div>
+          <div class="skill-pct">65%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─── -->
+  <section id="education">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">Education</span>
+        <h2>Academic Background</h2>
+      </div>
+      <div class="edu-wrap">
+        <div class="edu-card reveal">
+          <div class="edu-year">2023 — Present</div>
+          <h3>Diploma in Information Technology</h3>
+          <p class="inst">2nd Year — Currently Pursuing</p>
+          <div class="edu-status">
+            <span class="dot"></span>
+            Ongoing — 2nd Year
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Contact</span>
+          <h2 class="reveal">Let's Build Something <span style="color:var(--primary)">Amazing</span> Together</h2>
+          <p class="reveal delay-1">Have a project in mind? Let's talk. I'm currently available for freelance work and
+            open to exciting opportunities.</p>
+          <div class="reveal delay-2">
+            <div class="contact-item">
+              <div class="contact-item-icon">📧</div>
+              <div>
+                <strong>Email</strong>
+                <span>ashvinsonara@email.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <strong>Location</strong>
+                <span>India — Available Remotely</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">🕐</div>
+              <div>
+                <strong>Response Time</strong>
+                <span>Within 24 hours</span>
+              </div>
+            </div>
+          </div>
+          <a href="https://wa.me/916351033941" class="btn-whatsapp reveal delay-3" target="_blank" rel="noopener">
+            💬 Chat on WhatsApp
+          </a>
+        </div>
+        <div class="contact-form reveal delay-2">
+          <h3>Start a Project</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" placeholder="John Smith" required>
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" placeholder="john@example.com" required>
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Send Message ✉️</button>
+            <div class="form-success" id="formSuccess">✅ Message sent! I'll be in touch soon.</div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <p>© 2026 <span>Ashvin Sonara</span> | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
